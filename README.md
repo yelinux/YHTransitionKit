@@ -17,7 +17,9 @@ YHTransitionKit is available through [CocoaPods](https://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'YHTransitionKit'
+pod 'YHTransitionKit', :git => 'https://github.com/yelinux/YHTransitionKit.git'
+#pod 'YHTransitionKit/NavigationBar', :git => 'https://github.com/yelinux/YHTransitionKit.git'
+#pod 'YHTransitionKit/PresentDismiss', :git => 'https://github.com/yelinux/YHTransitionKit.git'
 ```
 
 ## Author
