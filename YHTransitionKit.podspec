@@ -30,7 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YHTransitionKit/Classes/**/*'
+  # s.source_files = 'YHTransitionKit/Classes/**/*'
+  
+  s.subspec 'NavigationBar' do |NavigationBar|
+    NavigationBar.source_files = 'YHTransitionKit/Classes/NavigationBar/**/*'
+  end
+  
+  s.subspec 'PresentDismiss' do |PresentDismiss|
+    PresentDismiss.source_files = 'YHTransitionKit/Classes/PresentDismiss/**/*'
+  end
   
   # s.resource_bundles = {
   #   'YHTransitionKit' => ['YHTransitionKit/Assets/*.png']
