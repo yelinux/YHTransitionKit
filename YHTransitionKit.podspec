@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHTransitionKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of YHTransitionKit.'
 
 # This description is used to generate tags and improve search results.
@@ -32,12 +32,12 @@ TODO: Add long description of the pod here.
 
   # s.source_files = 'YHTransitionKit/Classes/**/*'
   
-  s.subspec 'NavigationBar' do |NavigationBar|
-    NavigationBar.source_files = 'YHTransitionKit/Classes/NavigationBar/**/*'
+  s.subspec 'NavigationBar' do |s|
+    s.source_files = 'YHTransitionKit/Classes/NavigationBar/**/*'
   end
   
-  s.subspec 'PresentDismiss' do |PresentDismiss|
-    PresentDismiss.source_files = 'YHTransitionKit/Classes/PresentDismiss/**/*'
+  s.subspec 'PresentDismiss' do |s|
+    s.source_files = 'YHTransitionKit/Classes/PresentDismiss/**/*'
   end
   
   # s.resource_bundles = {
