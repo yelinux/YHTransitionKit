@@ -1,0 +1,6 @@
+framework module YHTransitionKit {
+  umbrella header "YHTransitionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

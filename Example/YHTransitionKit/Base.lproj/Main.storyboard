@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="YHViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdg-Y0-88x">
+                                <rect key="frame" x="15" y="15" width="345" height="652"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gcT-Le-enu">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="226"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJk-B6-JZS">
+                                                <rect key="frame" x="0.0" y="0.0" width="345" height="31"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="隐藏导航栏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2M-tC-Nwj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="296" height="31"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="G3e-be-4Z7">
+                                                        <rect key="frame" x="296" y="0.0" width="51" height="31"/>
+                                                        <connections>
+                                                            <action selector="swShowHide:" destination="whP-gf-Uak" eventType="valueChanged" id="EeV-Ns-OkA"/>
+                                                        </connections>
+                                                    </switch>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dyz-17-ggb">
+                                                <rect key="frame" x="0.0" y="39" width="345" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Push 显示导航栏的VC"/>
+                                                <connections>
+                                                    <action selector="clickToShowNav:" destination="whP-gf-Uak" eventType="touchUpInside" id="zqO-RO-W5i"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RrM-Df-cwz">
+                                                <rect key="frame" x="0.0" y="78" width="345" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Push 隐藏导航栏的VC"/>
+                                                <connections>
+                                                    <action selector="clickToHideNav:" destination="whP-gf-Uak" eventType="touchUpInside" id="uMA-Up-yhd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsu-Pj-d4V">
+                                                <rect key="frame" x="0.0" y="117" width="345" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Present VC"/>
+                                                <connections>
+                                                    <action selector="clickPresentVC:" destination="whP-gf-Uak" eventType="touchUpInside" id="3Vn-LY-EXf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHS-2Z-VsA">
+                                                <rect key="frame" x="0.0" y="156" width="345" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Present Nav-VC"/>
+                                                <connections>
+                                                    <action selector="clickPresentNav:" destination="whP-gf-Uak" eventType="touchUpInside" id="ejh-2T-Z02"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNX-dv-VN8">
+                                                <rect key="frame" x="0.0" y="195" width="345" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Present tab-VC"/>
+                                                <connections>
+                                                    <action selector="clickPresentTab:" destination="whP-gf-Uak" eventType="touchUpInside" id="uWB-95-kYY"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gcT-Le-enu" firstAttribute="top" secondItem="Xdg-Y0-88x" secondAttribute="top" id="E2u-Pd-axe"/>
+                                    <constraint firstAttribute="bottom" secondItem="gcT-Le-enu" secondAttribute="bottom" id="FD6-wS-ijP"/>
+                                    <constraint firstItem="gcT-Le-enu" firstAttribute="width" secondItem="Xdg-Y0-88x" secondAttribute="width" id="Ngs-wD-fv6"/>
+                                    <constraint firstAttribute="trailing" secondItem="gcT-Le-enu" secondAttribute="trailing" id="Ymx-uq-nbM"/>
+                                    <constraint firstItem="gcT-Le-enu" firstAttribute="leading" secondItem="Xdg-Y0-88x" secondAttribute="leading" id="iVb-ge-6aF"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Xdg-Y0-88x" secondAttribute="trailing" constant="15" id="9fY-wf-PVA"/>
+                            <constraint firstItem="Xdg-Y0-88x" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="15" id="9iG-eL-ip1"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="Xdg-Y0-88x" secondAttribute="bottom" id="IJf-j8-93P"/>
+                            <constraint firstItem="Xdg-Y0-88x" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="15" id="pKJ-D6-P9L"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+</document>

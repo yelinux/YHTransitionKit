@@ -1,0 +1,16 @@
+PODS:
+  - YHTransitionKit (0.1.0)
+
+DEPENDENCIES:
+  - YHTransitionKit (from `../`)
+
+EXTERNAL SOURCES:
+  YHTransitionKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YHTransitionKit: 576147c358bc27f19aa9c8e2b75875cedc0d9b9e
+
+PODFILE CHECKSUM: e929fe987569e2df40293a19025d5b798d3c21cb
+
+COCOAPODS: 1.11.2
