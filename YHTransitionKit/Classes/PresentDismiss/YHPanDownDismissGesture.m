@@ -13,6 +13,7 @@
 -(instancetype)init{
     if (self = [super init]) {
         [self addTarget:self action:@selector(panGestureAction:)];
+        self.delegate = self;
     }
     return self;
 }
@@ -33,6 +34,15 @@
             [self.dismissDelegate yhDismissCancel];
         }
     }
+}
+
+#pragma mark - UIGestureRecognizerDelegate
+- (BOOL)gestureRecognizerShouldBegin:(UIPanGestureRecognizer *)gestureRecognizer{
+    CGFloat touchY = [gestureRecognizer translationInView:gestureRecognizer.view].y;
+    if (touchY > 0) {
+        return YES;
+    }
+    return NO;
 }
 
 @end

@@ -18,8 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.title = NSStringFromClass([self class]);
-    self.yh_prefersNavigationBarType = YHViewControllerNavigationBarTypeHidden;
-    NSLog(@"YHThirdViewController viewDidLoad");
+    self.yh_prefersNavigationBarType = YHViewControllerNavigationBarTypeHidden;//导航栏是否显示(必设)
 }
 
 /*

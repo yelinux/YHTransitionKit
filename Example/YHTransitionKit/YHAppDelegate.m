@@ -22,12 +22,12 @@
     vc.title = @"YHTransitionKit示例";
 
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    //全局设置
-    nav.yh_interactivePopType = YHNavigationInteractivePopTypeFullScreen;
-    nav.yh_pushPopAnimated = [[YHNavigationScaleAnimated alloc] init];
-    nav.yh_navBackgroundColor = [UIColor colorWithRed:20/255.0 green:122/255.0 blue:244/255.0 alpha:1];
-    nav.yh_titleTextAttributes = @{NSForegroundColorAttributeName:UIColor.whiteColor};
-    nav.yh_shadowColor = UIColor.blueColor;
+    //导航栏全局设置
+    nav.yh_interactivePopType = YHNavigationInteractivePopTypeFullScreen;//全屏右滑返回手势(选设)
+    nav.yh_pushPopAnimated = [[YHNavigationScaleAnimated alloc] init];//自定义动画（全屏右滑返回必设，其它情况选设）
+    nav.yh_navBackgroundColor = [UIColor colorWithRed:20/255.0 green:122/255.0 blue:244/255.0 alpha:1];//背景颜色(选设)
+    nav.yh_titleTextAttributes = @{NSForegroundColorAttributeName:UIColor.whiteColor};//标题文本属性(选设)
+    nav.yh_shadowColor = UIColor.blueColor;//分割线颜色(选设)
     nav.navigationBar.translucent = NO;
     
     self.window.rootViewController = nav;

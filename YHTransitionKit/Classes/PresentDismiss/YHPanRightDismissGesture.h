@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YHPanRightDismissGesture : UIPanGestureRecognizer
+@interface YHPanRightDismissGesture : UIPanGestureRecognizer<UIGestureRecognizerDelegate>
 
 -(instancetype)initWithCoder:(NSCoder *)coder NS_UNAVAILABLE;
 -(instancetype)initWithTarget:(nullable id)target action:(nullable SEL)action NS_UNAVAILABLE;

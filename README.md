@@ -37,14 +37,10 @@ Run `pod install` or `pod update`.
 Drag the `YHTransitionKit/Classes` folder into your project.
 
 ## Usage
-1. Add the following to your view controller file:
+1. Example for UINavigationController's push/pop animated and gesture setting:
 ```objective-c
 #import "YHNavigationKit.h"
-#import "YHPresentDismissKit.h"
-```
 
-2. Example for UINavigationController's push/pop animated and gesture setting:
-```objective-c
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     //导航栏全局设置
     nav.yh_interactivePopType = YHNavigationInteractivePopTypeFullScreen;//全屏右滑返回手势(选设)
@@ -57,6 +53,8 @@ Drag the `YHTransitionKit/Classes` folder into your project.
 
 2. Example for UIViewController's navigationBar setting:
 ```objective-c
+#import "YHNavigationKit.h"
+
 @interface YHSecondViewController ()
 
 @end
@@ -77,6 +75,8 @@ Drag the `YHTransitionKit/Classes` folder into your project.
 
 3. Example for UIViewController present/dismiss animated and close gesture setting:
 ```objective-c
+#import "YHPresentDismissKit.h"
+
 - (IBAction)clickPresentNav:(id)sender {
     YHSecondViewController *vc = [[YHSecondViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];

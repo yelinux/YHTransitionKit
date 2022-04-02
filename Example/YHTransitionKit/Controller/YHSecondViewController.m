@@ -19,16 +19,13 @@
     // Do any additional setup after loading the view from its nib.
     self.title = @"Second";
     //特殊设置
-    self.yh_prefersNavigationBarType = YHViewControllerNavigationBarTypeShow;
-    self.yh_navBackgroundColor = [UIColor colorWithRed:220/255.0 green:189/255.0 blue:206/255.0 alpha:1];
-    self.yh_titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor colorWithRed:20/255.0 green:122/255.0 blue:244/255.0 alpha:1]};
-//    self.yh_backgroundImage = [UIImage imageNamed:@"nav_bg_image"];
-    self.yh_shadowColor = UIColor.grayColor;
+    self.yh_prefersNavigationBarType = YHViewControllerNavigationBarTypeShow;//导航栏是否显示(必设)
+    self.yh_navBackgroundColor = [UIColor colorWithRed:220/255.0 green:189/255.0 blue:206/255.0 alpha:1];//导航栏背景颜色(选设)
+    self.yh_titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor colorWithRed:20/255.0 green:122/255.0 blue:244/255.0 alpha:1]};//标题文本属性(选设)
+//    self.yh_backgroundImage = [UIImage imageNamed:@"nav_bg_image"];//导航栏背景图片(选设)
+    self.yh_shadowColor = UIColor.grayColor;//导航栏分割线颜色(选设)
 }
 
--(UIStatusBarStyle)preferredStatusBarStyle{
-    return UIStatusBarStyleLightContent;
-}
 /*
 #pragma mark - Navigation
 

@@ -63,7 +63,7 @@
     __block CGRect fromFrame = transitionContainer.bounds;
     __block CGRect toFrame = transitionContainer.bounds;
     
-    if (!fromViewController.navigationController.navigationBar.translucent && fromViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeShow) {
+    if (!fromViewController.navigationController.navigationBar.translucent && (fromViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeShow || (fromViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeNone && !fromViewController.navigationController.navigationBar.isHidden))) {
         CGFloat marginTop = fromViewController.navigationController.navigationBar.frame.size.height;
         if (@available(iOS 11.0, *)) {
             if ([fromView.window convertRect:fromViewController.navigationController.view.frame fromView:fromViewController.navigationController.view.superview].origin.y == 0) {
@@ -74,7 +74,7 @@
         fromFrame.size.height -= marginTop;
     }
     
-    if (!toViewController.navigationController.navigationBar.translucent && toViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeShow) {
+    if (!toViewController.navigationController.navigationBar.translucent && (toViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeShow || (toViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeNone && !toViewController.navigationController.navigationBar.isHidden))) {
         CGFloat marginTop = toViewController.navigationController.navigationBar.frame.size.height;
         if (@available(iOS 11.0, *)) {
             if ([toView.window convertRect:toViewController.navigationController.view.frame fromView:toViewController.navigationController.view.superview].origin.y == 0) {
