@@ -7,7 +7,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/YHTransitionKit.svg?style=flat)](https://cocoapods.org/pods/YHTransitionKit)
 
 ## Features
-![示例](./preview/example.gif)
+![示例](./preview/push.pop.gif)
+![示例](./preview/present.dismiss.gif)
 
 ## Example
 
