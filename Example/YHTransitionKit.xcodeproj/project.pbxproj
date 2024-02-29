@@ -300,6 +300,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "ye_linux@126.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XHZCHX5E66;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -558,13 +561,13 @@
 			baseConfigurationReference = 733F3F345E35B47300A1A140 /* Pods-YHTransitionKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XHZCHX5E66;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YHTransitionKit/YHTransitionKit-Prefix.pch";
 				INFOPLIST_FILE = "YHTransitionKit/YHTransitionKit-Info.plist";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.YHTransitionKit-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gengzi.miaocode.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -576,13 +579,13 @@
 			baseConfigurationReference = E0006D614D87FFC2DFF8E425 /* Pods-YHTransitionKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XHZCHX5E66;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YHTransitionKit/YHTransitionKit-Prefix.pch";
 				INFOPLIST_FILE = "YHTransitionKit/YHTransitionKit-Info.plist";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.YHTransitionKit-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gengzi.miaocode.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

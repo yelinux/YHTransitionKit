@@ -47,7 +47,9 @@
 
 - (void)yh_viewDidLoad{
     [self yh_viewDidLoad];
-    self.delegateObject = [[YHNavigationDelegateObject alloc] initWithNavigationController:self];
+    if (![self isKindOfClass:[UIImagePickerController class]]) {
+        self.delegateObject = [[YHNavigationDelegateObject alloc] initWithNavigationController:self];
+    }
 }
 
 // Mark - Getter & Setter

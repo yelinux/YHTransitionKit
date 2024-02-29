@@ -11,7 +11,9 @@
 #import "YHThirdViewController.h"
 #import "YHTabBarViewController.h"
 
-@interface YHViewController ()
+@interface YHViewController ()<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+
+@property (nonatomic, strong) UIImagePickerController *picker;
 
 @end
 
@@ -20,7 +22,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
     self.yh_prefersNavigationBarType = YHViewControllerNavigationBarTypeShow;//导航栏是否显示(必设)
 }
 
@@ -72,6 +74,25 @@
         bindDismissGestureBlock(vc.viewControllers[0].view, YHPanRightDismissGesture.new);//跳转结束，绑定返回手势
         bindDismissGestureBlock(vc.viewControllers[1].view, YHPanRightDismissGesture.new);//跳转结束，绑定返回手势
     }];
+}
+
+- (IBAction)clickCamera:(id)sender {
+    self.picker = [[UIImagePickerController alloc] init];
+    self.picker.delegate = self;
+    self.picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    self.picker.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+    [self presentViewController:self.picker animated:YES completion:nil];
+}
+
+// MARK: - UINavigationControllerDelegate, UIImagePickerControllerDelegate
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey,id> *)info {
+    NSLog(@"%s", __func__);
+    [picker dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    NSLog(@"%s", __func__);
+    [picker dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
