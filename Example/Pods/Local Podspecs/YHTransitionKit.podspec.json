@@ -1,9 +1,9 @@
 {
   "name": "YHTransitionKit",
-  "version": "0.1.0",
-  "summary": "A short description of YHTransitionKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ye_linux@126.com/YHTransitionKit",
+  "version": "0.1.3",
+  "summary": "Push/Pop and Present/Dismiss animated/gesture of YHTransitionKit.",
+  "description": "TODO: Implement by categroy, push/pop and present/dismiss animated/gesture of YHTransitionKit, better to use.",
+  "homepage": "https://github.com/yelinux/YHTransitionKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,20 @@
     "ye_linux@126.com": "ye_linux@126.com"
   },
   "source": {
-    "git": "https://github.com/ye_linux@126.com/YHTransitionKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yelinux/YHTransitionKit.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "YHTransitionKit/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "NavigationBar",
+      "source_files": "YHTransitionKit/Classes/NavigationBar/**/*"
+    },
+    {
+      "name": "PresentDismiss",
+      "source_files": "YHTransitionKit/Classes/PresentDismiss/**/*"
+    }
+  ]
 }

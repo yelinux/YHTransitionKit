@@ -60,30 +60,33 @@
     transitionContainer.backgroundColor = isPush ? fromView.backgroundColor : toView.backgroundColor;
     [containerView addSubview:transitionContainer];
     
-    __block CGRect fromFrame = transitionContainer.bounds;
-    __block CGRect toFrame = transitionContainer.bounds;
+//    __block CGRect fromFrame = transitionContainer.bounds;
+//    __block CGRect toFrame = transitionContainer.bounds;
+//    
+//    if (!fromViewController.navigationController.navigationBar.translucent && (fromViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeShow || (fromViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeNone && !fromViewController.navigationController.navigationBar.isHidden))) {
+//        CGFloat marginTop = fromViewController.navigationController.navigationBar.frame.size.height;
+//        if (@available(iOS 11.0, *)) {
+//            if ([fromView.window convertRect:fromViewController.navigationController.view.frame fromView:fromViewController.navigationController.view.superview].origin.y == 0) {
+//                marginTop += fromView.window.safeAreaInsets.top;
+//            }
+//        }
+//        fromFrame.origin.y += marginTop;
+//        fromFrame.size.height -= marginTop;
+//    }
+//    
+//    if (!toViewController.navigationController.navigationBar.translucent && (toViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeShow || (toViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeNone && !toViewController.navigationController.navigationBar.isHidden))) {
+//        CGFloat marginTop = toViewController.navigationController.navigationBar.frame.size.height;
+//        if (@available(iOS 11.0, *)) {
+//            if ([toView.window convertRect:toViewController.navigationController.view.frame fromView:toViewController.navigationController.view.superview].origin.y == 0) {
+//                marginTop += toView.window.safeAreaInsets.top;
+//            }
+//        }
+//        toFrame.origin.y += marginTop;
+//        toFrame.size.height -= marginTop;
+//    }
     
-    if (!fromViewController.navigationController.navigationBar.translucent && (fromViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeShow || (fromViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeNone && !fromViewController.navigationController.navigationBar.isHidden))) {
-        CGFloat marginTop = fromViewController.navigationController.navigationBar.frame.size.height;
-        if (@available(iOS 11.0, *)) {
-            if ([fromView.window convertRect:fromViewController.navigationController.view.frame fromView:fromViewController.navigationController.view.superview].origin.y == 0) {
-                marginTop += fromView.window.safeAreaInsets.top;
-            }
-        }
-        fromFrame.origin.y += marginTop;
-        fromFrame.size.height -= marginTop;
-    }
-    
-    if (!toViewController.navigationController.navigationBar.translucent && (toViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeShow || (toViewController.yh_prefersNavigationBarType == YHViewControllerNavigationBarTypeNone && !toViewController.navigationController.navigationBar.isHidden))) {
-        CGFloat marginTop = toViewController.navigationController.navigationBar.frame.size.height;
-        if (@available(iOS 11.0, *)) {
-            if ([toView.window convertRect:toViewController.navigationController.view.frame fromView:toViewController.navigationController.view.superview].origin.y == 0) {
-                marginTop += toView.window.safeAreaInsets.top;
-            }
-        }
-        toFrame.origin.y += marginTop;
-        toFrame.size.height -= marginTop;
-    }
+    __block CGRect fromFrame = fromView.frame;
+    __block CGRect toFrame = toView.frame;
     
     UIImageView *fromIv = [[UIImageView alloc] initWithFrame:fromFrame];
     fromIv.image = fromViewSnapshot;

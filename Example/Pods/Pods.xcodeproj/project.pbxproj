@@ -8,48 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		0179C1ED3555E75429AFAD9031252765 /* Pods-YHTransitionKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E43FDBE3459C00CAC78CFE65E9F31385 /* Pods-YHTransitionKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0248C260EF3AB7BB77E5A15F31ACBE8E /* YHPanDownDismissGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 3718572DBC5C71E312E83BFE91E6414E /* YHPanDownDismissGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B62A01BB83CCDE2D079D4FE0B01753B /* YHPresentDismissScaleBottomAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB8F30123C683DA7D6B70AC412CB72D /* YHPresentDismissScaleBottomAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C101D7299DCDB1D8DDD606D936AE0DE /* YHPresentDismissBaseAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 206C717EDD2330E8B7B2D071E461D4F0 /* YHPresentDismissBaseAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046E5C369C40D19891D39D16D743201B /* UINavigationController+YHTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595CBFE9A71AC76C4CEB5FADFFC2460 /* UINavigationController+YHTransition.m */; };
+		094BC68F74DD36FDB285694555AED1E2 /* UIGestureRecognizer+YHDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 5610C03302BA8F9B0804C4924A88C395 /* UIGestureRecognizer+YHDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14060E5CBAE96C85340647633ED9F08E /* YHPresentDismissDelegateObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E18A12368F7207F132D9D4155C66E71 /* YHPresentDismissDelegateObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		156206C6E6D3E06A7B43E93602B30461 /* YHPresentDismissBaseAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7BA2E4174DFDF8AA267BA33735D3B /* YHPresentDismissBaseAnimated.m */; };
 		167CA9766F36BAB365C237B601879106 /* Pods-YHTransitionKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5796EE3F4348BDFB741A968977F99A57 /* Pods-YHTransitionKit_Example-dummy.m */; };
-		16899494E6C68BB11E5F43DC13837E4F /* UIGestureRecognizer+YHDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D9F5275644401D72E3BB9DE25404EA /* UIGestureRecognizer+YHDismiss.m */; };
-		170D51542F8DCC6D7A6F1A931ACF35A1 /* YHPresentDismissScaleBottomAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = E224DEFA4119791D07B84074F13EEBDF /* YHPresentDismissScaleBottomAnimated.m */; };
-		1F8A63A6247EAA300CAF9DF974952830 /* YHPanDownDismissGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7700C0134BFFA1E0E2AD308341C7B1 /* YHPanDownDismissGesture.m */; };
-		1F9E91EB00C9A3D37D830A6B0FB4436E /* YHTransitionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD14990872D60B4938920D7DE54E68A2 /* YHTransitionKit-dummy.m */; };
+		188D70FC32F308A1FBA1171104C3C2F7 /* UIGestureRecognizer+YHDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 6218FA288C24D22D953E98DC4C857C7B /* UIGestureRecognizer+YHDismiss.m */; };
+		203B6F498AFFE62823B98A520B2741D6 /* YHPresentDismissTransitionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A3A20C272DE7314160D44B80746E14 /* YHPresentDismissTransitionAnimated.m */; };
 		2678D44C4358122836FCBA4E175F6510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		27AD44618EC73474A3F137974C5C145A /* YHPresentDismissDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EBCE13015EDCDCD0B9C7D1D9747A5D /* YHPresentDismissDelegateObject.m */; };
-		2A1F8B0918812CFB3CF6A49A2746D83F /* YHPresentDismissBaseAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ADC72E4801BEE78BD0594F03A15188 /* YHPresentDismissBaseAnimated.m */; };
-		2C581B970018E09E225D83D8683CC91A /* YHTransitionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C19A9BBD0D0F504C32F39E5A60787BA /* YHTransitionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5F5759E02C557DC18B25729AD6EE47 /* YHNavigationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CD7AEF9913C906A3314753B584B44F /* YHNavigationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E1602C5FFBD0911DAB08FF4B0BE948F /* YHPresentDismissDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CB657BDF3F3167154F2232A65A8430A3 /* YHPresentDismissDelegateObject.m */; };
+		44D6089AB2F14A140415DD4BABCC1E9E /* YHPresentDismissTransitionAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39C3621EB9921B24801CE2C9C9E779 /* YHPresentDismissTransitionAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BD60FBF12E75C3CFFF9DDDA4F6D54F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4D7B5CAAEAD8B7334AA4B423B6FC11C6 /* Pods-YHTransitionKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4387E0791E5219E196CC72CA524A65 /* Pods-YHTransitionKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E9FB612CBD4ACE61B3BF705CC81921E /* YHPanRightDismissGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE8426720A9743EEF2D21A53322A9DB /* YHPanRightDismissGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55DA276FE9443E942E4BE9A70724AB36 /* UIGestureRecognizer+YHDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = B983BC1303EED313B89ECE9C0D3506EA /* UIGestureRecognizer+YHDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50CC8D5507778F061C7249C188AAB1B4 /* UIViewController+YHNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB7D4CBAE05506D1219938D72336D5 /* UIViewController+YHNavigation.m */; };
+		541BC776EA4F55FC30ED88ECCC3BAE3E /* YHPanRightDismissGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = A459774CC0901E677AEAE096572A1E63 /* YHPanRightDismissGesture.m */; };
+		5CE731BA4D2CEBB5BFE6D699E0906B5D /* YHPanDownDismissGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 396C1873E2C009B52D6BB7FE0C327F05 /* YHPanDownDismissGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D6D74E433EB0EADEE2EBF3D80066D7A /* YHNavigationBaseAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AD75106C6E48B55B2D95DB201C92B7 /* YHNavigationBaseAnimated.m */; };
 		5E1E47AB80018FB87B8F57A5F88074D9 /* Pods-YHTransitionKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F63C329D83B5E337902A43344993CF2 /* Pods-YHTransitionKit_Tests-dummy.m */; };
-		6044F6696E95C83F0E35E27F17CF99B4 /* YHNavigationDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F656E43D959ECD9C32373DEA8C889C /* YHNavigationDelegateObject.m */; };
-		69920130C63CF35108621235E9F927AC /* YHPresentDismissTransitionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 0667453B061EAE1745629FFC1EA535C3 /* YHPresentDismissTransitionAnimated.m */; };
-		69B4D45702CD934DFA15385D707C75E6 /* UIViewController+YHNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8367F360A9623839DE0467C0455B17 /* UIViewController+YHNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70023D08C8A2BFA0E5E03AFFD424F897 /* UIViewController+YHPresentDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = E32A9052A3DDF0474720CE962065A0EC /* UIViewController+YHPresentDismiss.m */; };
-		713C91F340C63444EC4C8E632CB4DFBE /* UINavigationController+YHTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFE2E9CD52E2332F8DB24A63CEE50B6 /* UINavigationController+YHTransition.m */; };
-		76F8A1672AAAA62912F0AF5FF2D0EBE0 /* YHPresentDismissTransitionAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B59F2EE869C3D62955141E885A446B /* YHPresentDismissTransitionAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EC4F253A0EBACD64B31D554B3822388 /* YHNavigationTransitionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B583602BE07976331B9F5A190F2D0 /* YHNavigationTransitionAnimated.m */; };
-		915A477127009F5B062D6E44087AED2D /* YHNavigationDelegateObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1D767DD1CEA9FB38789B952C404230 /* YHNavigationDelegateObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		989848CA46AEE5E8B327BB96C7B21BD8 /* YHNavigationBaseAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EEF3C29DEB1178F99B7FC06A8BCDBD4 /* YHNavigationBaseAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E0BC3B83E6EF1DC00500E259E176EBD /* UINavigationController+YHTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B978F3463646F523080F624ABE5DB7A /* UINavigationController+YHTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A2F380BE014AF298F216DAA169F1B0 /* YHNavigationTransitionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B970F6AFAAACB531D1366937A607AE6 /* YHNavigationTransitionAnimated.m */; };
+		69F8C62E098BA25E158349F2B437F5F0 /* YHPresentDismissBaseAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = C69E4407567F3016FDD89DF5D892185A /* YHPresentDismissBaseAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7373507C38A6276D17989F42480F3353 /* YHNavigationDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AD39CA01A10165215C72FC8788C275C8 /* YHNavigationDelegateObject.m */; };
+		7DDB43074146AE7EFC7AE9492EB19CAC /* UIViewController+YHNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD4CFC46F7A47D4A9212CEC00F44BA8 /* UIViewController+YHNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9066B1921F9C2AE9A5E6E5C1A578D53B /* YHPresentDismissScaleBottomAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D85B796657BB46CDF65F3B77723DE96 /* YHPresentDismissScaleBottomAnimated.m */; };
+		9332BCD0704F20CC5862F3EC66021938 /* YHTransitionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 947346D2C50802779946B0B68D4C1DEB /* YHTransitionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD9C5C917F4444CE730B85A0229F6C6 /* YHPresentDismissScaleBottomAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6909F3553A09D243928B1D903BE530 /* YHPresentDismissScaleBottomAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF15CBA2FEA9F327372BD3E76B9DF15 /* YHPanRightDismissGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4B5424CE17FA3BFD46E517A2B89927 /* YHPanRightDismissGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F01307EF9A992CB0F77F5F89B36BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A96F228F4D78596CF1ED76351ECBEEC1 /* YHNavigationFullScreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 968A21E3F7FE4D9246C013998C1E9791 /* YHNavigationFullScreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4DA6D05B14E6B794C405BD8F473A7FA /* YHNavigationScaleAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B8B07845B20D8B76E46B284C62D8 /* YHNavigationScaleAnimated.m */; };
-		B63C739D2C4E134CC906A8C0D52A5B47 /* YHPanRightDismissGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC5F32F722B33FBF8BB8322A8F20EF /* YHPanRightDismissGesture.m */; };
-		B64F379D9812C098987B7DFC2CB5D184 /* YHNavigationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEC329F7A6317B9B2A63B51E82AEB92 /* YHNavigationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8DA84AEEA972933CB74FF724F5945F6 /* YHNavigationScaleAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DC8AED99FEFB6F2F4B9341409E4634 /* YHNavigationScaleAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA8B41EC3DE3DE3E020251F11A31C2BB /* YHPresentDismissScaleRightAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 58318175738CF2A9A23AF4745F0463DD /* YHPresentDismissScaleRightAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF816D4D28D6CA5FFA30123AD99F0B46 /* YHPresentDismissKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2757EDEA419FA154710444358AD01180 /* YHPresentDismissKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C78376A6AA592ADD8E6238259FE92767 /* YHNavigationTransitionAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = AE75216432429B377BC0246737D06FE7 /* YHNavigationTransitionAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D96189506D48BEDE35BD9088430D5AC2 /* UIViewController+YHPresentDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 9378295A18201E1AE4F64AF50EF2D2C6 /* UIViewController+YHPresentDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E243DA10F6000893DEB258D826EBAB6E /* YHNavigationBaseAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC12DB93EAEC957D2F50C70E0983B76 /* YHNavigationBaseAnimated.m */; };
-		F5045C18988092FF27EA33383A4AB628 /* YHPresentDismissDelegateObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8031435738E707804444AD043A631682 /* YHPresentDismissDelegateObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6780C6604623FFB728C2C9A67500EA0 /* UIViewController+YHNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CD47AC7797E0C56B05FBAFD10FF2FA /* UIViewController+YHNavigation.m */; };
-		FD6447D0F43597347D7FBDDB1CAF0F80 /* YHNavigationFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0A127F0154B0048FCBA7F19481483 /* YHNavigationFullScreenPopGesture.m */; };
-		FEA3A9D193C64FDCDF5E3BCF056BC112 /* YHPresentDismissScaleRightAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 8687FAEEFBB353E992062BFFBB092D80 /* YHPresentDismissScaleRightAnimated.m */; };
+		A8F6AF7C44FA47F1E542FA13BF5EE1CA /* YHNavigationFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA68DC86B2A4048C82060533889B7C /* YHNavigationFullScreenPopGesture.m */; };
+		AE95E6A13E0672B4338912D4D81B5F5F /* UIViewController+YHPresentDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1C4B1DE9BF544885EA2D11D1F80801 /* UIViewController+YHPresentDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B775976FA5D82FC7DF509728F6F1E6FB /* YHPresentDismissKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5D852333C70451BFBE33DA78F35A0D /* YHPresentDismissKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C102CC13F9C00835825AFEF0D10E53A1 /* YHNavigationDelegateObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D045E4830368EC9E6222F69EF0BCC3 /* YHNavigationDelegateObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C68988B0D747F1EE76C481C75C9CB4C1 /* YHPanDownDismissGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4858C83303202FD26F8AA8E8865E51 /* YHPanDownDismissGesture.m */; };
+		E26852E23C1529B9DB874F5C0EB17A1F /* YHNavigationScaleAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB769910F0F87555E8715FD211931B /* YHNavigationScaleAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D9EAABBB42F3384EAE6832210E20D8 /* YHNavigationScaleAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = A66BE192398A574FCE3CA76C00DA3CD0 /* YHNavigationScaleAnimated.m */; };
+		E4A79DB9F46984EB8F0CFDF070CE988E /* YHNavigationFullScreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8702A122EA262922FFC7F68448E6A4A6 /* YHNavigationFullScreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F6F4D64CA8C666103E0FEA6B7E5E02 /* YHNavigationBaseAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F461EF74809B28B9B364BBA18431A0 /* YHNavigationBaseAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC430043453A9562ECD8E4066E2F1467 /* UINavigationController+YHTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = F9406862C5455415198EB0F2CE8AE241 /* UINavigationController+YHTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC90BD866192B21456105827EDA5B4D8 /* YHPresentDismissScaleRightAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE077E22B178BF1842064005C8D1FD0 /* YHPresentDismissScaleRightAnimated.m */; };
+		EE933AF88CA370AE5358566758F80594 /* YHNavigationTransitionAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBFC49CCE0F14D010AC6CC504500F67 /* YHNavigationTransitionAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F305240B6714EF4D407682415B011A76 /* UIViewController+YHPresentDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = E70124BF14C705958FCE8EE685DB9FB6 /* UIViewController+YHPresentDismiss.m */; };
+		F36FAF64E95BDF6EE93B681B0F758492 /* YHTransitionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5962858137DFFE9A62D038864C12945F /* YHTransitionKit-dummy.m */; };
+		F3F4D3B739090EE6E68028B06B827C8A /* YHPresentDismissScaleRightAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 415042B5F90FD823795774C04D9AC2FE /* YHPresentDismissScaleRightAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,72 +70,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0667453B061EAE1745629FFC1EA535C3 /* YHPresentDismissTransitionAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHPresentDismissTransitionAnimated.m; sourceTree = "<group>"; };
-		0EEF3C29DEB1178F99B7FC06A8BCDBD4 /* YHNavigationBaseAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHNavigationBaseAnimated.h; sourceTree = "<group>"; };
+		009411221D7247886E50ED478735C1F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		035B7BC49CC923ADEE11E516FCA1064D /* YHTransitionKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHTransitionKit.debug.xcconfig; sourceTree = "<group>"; };
+		08F7BA2E4174DFDF8AA267BA33735D3B /* YHPresentDismissBaseAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHPresentDismissBaseAnimated.m; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissBaseAnimated.m; sourceTree = "<group>"; };
+		0EE077E22B178BF1842064005C8D1FD0 /* YHPresentDismissScaleRightAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHPresentDismissScaleRightAnimated.m; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissScaleRightAnimated.m; sourceTree = "<group>"; };
 		0EFD3E77C2004870265FF6218470CB4B /* Pods-YHTransitionKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHTransitionKit_Tests.modulemap"; sourceTree = "<group>"; };
-		115B583602BE07976331B9F5A190F2D0 /* YHNavigationTransitionAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHNavigationTransitionAnimated.m; sourceTree = "<group>"; };
-		12EBCE13015EDCDCD0B9C7D1D9747A5D /* YHPresentDismissDelegateObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHPresentDismissDelegateObject.m; sourceTree = "<group>"; };
+		1595CBFE9A71AC76C4CEB5FADFFC2460 /* UINavigationController+YHTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+YHTransition.m"; path = "YHTransitionKit/Classes/NavigationBar/UINavigationController+YHTransition.m"; sourceTree = "<group>"; };
+		18D045E4830368EC9E6222F69EF0BCC3 /* YHNavigationDelegateObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHNavigationDelegateObject.h; path = YHTransitionKit/Classes/NavigationBar/YHNavigationDelegateObject.h; sourceTree = "<group>"; };
+		1DBFC49CCE0F14D010AC6CC504500F67 /* YHNavigationTransitionAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHNavigationTransitionAnimated.h; path = YHTransitionKit/Classes/NavigationBar/YHNavigationTransitionAnimated.h; sourceTree = "<group>"; };
 		1F63C329D83B5E337902A43344993CF2 /* Pods-YHTransitionKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHTransitionKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		206C717EDD2330E8B7B2D071E461D4F0 /* YHPresentDismissBaseAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHPresentDismissBaseAnimated.h; sourceTree = "<group>"; };
-		2757EDEA419FA154710444358AD01180 /* YHPresentDismissKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHPresentDismissKit.h; sourceTree = "<group>"; };
-		3718572DBC5C71E312E83BFE91E6414E /* YHPanDownDismissGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHPanDownDismissGesture.h; sourceTree = "<group>"; };
-		3C19A9BBD0D0F504C32F39E5A60787BA /* YHTransitionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHTransitionKit-umbrella.h"; sourceTree = "<group>"; };
+		244A10726405E975F948EA4689A76D02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2AFB7D4CBAE05506D1219938D72336D5 /* UIViewController+YHNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YHNavigation.m"; path = "YHTransitionKit/Classes/NavigationBar/UIViewController+YHNavigation.m"; sourceTree = "<group>"; };
+		2F4858C83303202FD26F8AA8E8865E51 /* YHPanDownDismissGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHPanDownDismissGesture.m; path = YHTransitionKit/Classes/PresentDismiss/YHPanDownDismissGesture.m; sourceTree = "<group>"; };
+		37BB769910F0F87555E8715FD211931B /* YHNavigationScaleAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHNavigationScaleAnimated.h; path = YHTransitionKit/Classes/NavigationBar/YHNavigationScaleAnimated.h; sourceTree = "<group>"; };
+		396C1873E2C009B52D6BB7FE0C327F05 /* YHPanDownDismissGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHPanDownDismissGesture.h; path = YHTransitionKit/Classes/PresentDismiss/YHPanDownDismissGesture.h; sourceTree = "<group>"; };
+		3D85B796657BB46CDF65F3B77723DE96 /* YHPresentDismissScaleBottomAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHPresentDismissScaleBottomAnimated.m; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissScaleBottomAnimated.m; sourceTree = "<group>"; };
+		3E18A12368F7207F132D9D4155C66E71 /* YHPresentDismissDelegateObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHPresentDismissDelegateObject.h; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissDelegateObject.h; sourceTree = "<group>"; };
 		3EA7BF8F89EF5B3E8C6A25C58ABB8818 /* Pods-YHTransitionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHTransitionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		46FEAF1A06DC266CE22212BC77F869EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		415042B5F90FD823795774C04D9AC2FE /* YHPresentDismissScaleRightAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHPresentDismissScaleRightAnimated.h; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissScaleRightAnimated.h; sourceTree = "<group>"; };
+		44AD75106C6E48B55B2D95DB201C92B7 /* YHNavigationBaseAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHNavigationBaseAnimated.m; path = YHTransitionKit/Classes/NavigationBar/YHNavigationBaseAnimated.m; sourceTree = "<group>"; };
 		49117968177F97659230334CD90AADB8 /* Pods-YHTransitionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHTransitionKit_Example.modulemap"; sourceTree = "<group>"; };
-		54E0A127F0154B0048FCBA7F19481483 /* YHNavigationFullScreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHNavigationFullScreenPopGesture.m; sourceTree = "<group>"; };
+		4F4B5424CE17FA3BFD46E517A2B89927 /* YHPanRightDismissGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHPanRightDismissGesture.h; path = YHTransitionKit/Classes/PresentDismiss/YHPanRightDismissGesture.h; sourceTree = "<group>"; };
+		5610C03302BA8F9B0804C4924A88C395 /* UIGestureRecognizer+YHDismiss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+YHDismiss.h"; path = "YHTransitionKit/Classes/PresentDismiss/UIGestureRecognizer+YHDismiss.h"; sourceTree = "<group>"; };
 		5796EE3F4348BDFB741A968977F99A57 /* Pods-YHTransitionKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHTransitionKit_Example-dummy.m"; sourceTree = "<group>"; };
-		58318175738CF2A9A23AF4745F0463DD /* YHPresentDismissScaleRightAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHPresentDismissScaleRightAnimated.h; sourceTree = "<group>"; };
+		5962858137DFFE9A62D038864C12945F /* YHTransitionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHTransitionKit-dummy.m"; sourceTree = "<group>"; };
+		5A1C4B1DE9BF544885EA2D11D1F80801 /* UIViewController+YHPresentDismiss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YHPresentDismiss.h"; path = "YHTransitionKit/Classes/PresentDismiss/UIViewController+YHPresentDismiss.h"; sourceTree = "<group>"; };
 		5A7E899BEDB63D1CFBF21F2EDE8EFBAB /* Pods-YHTransitionKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHTransitionKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5FC12DB93EAEC957D2F50C70E0983B76 /* YHNavigationBaseAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHNavigationBaseAnimated.m; sourceTree = "<group>"; };
 		5FCEDA8CDB47239E1A1C91EB2BC20E07 /* YHTransitionKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YHTransitionKit; path = YHTransitionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AC84B0DF4DE2A1291B7CA9EE1F2613 /* Pods-YHTransitionKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHTransitionKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6218FA288C24D22D953E98DC4C857C7B /* UIGestureRecognizer+YHDismiss.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+YHDismiss.m"; path = "YHTransitionKit/Classes/PresentDismiss/UIGestureRecognizer+YHDismiss.m"; sourceTree = "<group>"; };
+		71385D64ED9CB33CC92300B7CD63C729 /* YHTransitionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHTransitionKit.modulemap; sourceTree = "<group>"; };
 		725D92C33FBF414BBF524E95A3D8E872 /* Pods-YHTransitionKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHTransitionKit_Tests"; path = Pods_YHTransitionKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		729DFD76D0D6E9779718B88EA2C0F7F0 /* Pods-YHTransitionKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHTransitionKit_Example"; path = Pods_YHTransitionKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79F656E43D959ECD9C32373DEA8C889C /* YHNavigationDelegateObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHNavigationDelegateObject.m; sourceTree = "<group>"; };
-		8031435738E707804444AD043A631682 /* YHPresentDismissDelegateObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHPresentDismissDelegateObject.h; sourceTree = "<group>"; };
-		8687FAEEFBB353E992062BFFBB092D80 /* YHPresentDismissScaleRightAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHPresentDismissScaleRightAnimated.m; sourceTree = "<group>"; };
-		8CD1B8B07845B20D8B76E46B284C62D8 /* YHNavigationScaleAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHNavigationScaleAnimated.m; sourceTree = "<group>"; };
-		8E0650BF036F18718B6EF6C6EE1D892E /* YHTransitionKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHTransitionKit.release.xcconfig; sourceTree = "<group>"; };
+		8702A122EA262922FFC7F68448E6A4A6 /* YHNavigationFullScreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHNavigationFullScreenPopGesture.h; path = YHTransitionKit/Classes/NavigationBar/YHNavigationFullScreenPopGesture.h; sourceTree = "<group>"; };
 		8E6DEB02672EE0CEB163C098DBC03217 /* Pods-YHTransitionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHTransitionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8F1D767DD1CEA9FB38789B952C404230 /* YHNavigationDelegateObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHNavigationDelegateObject.h; sourceTree = "<group>"; };
-		8FEC329F7A6317B9B2A63B51E82AEB92 /* YHNavigationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHNavigationKit.h; sourceTree = "<group>"; };
-		9378295A18201E1AE4F64AF50EF2D2C6 /* UIViewController+YHPresentDismiss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YHPresentDismiss.h"; sourceTree = "<group>"; };
-		968A21E3F7FE4D9246C013998C1E9791 /* YHNavigationFullScreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHNavigationFullScreenPopGesture.h; sourceTree = "<group>"; };
-		9B978F3463646F523080F624ABE5DB7A /* UINavigationController+YHTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+YHTransition.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947346D2C50802779946B0B68D4C1DEB /* YHTransitionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHTransitionKit-umbrella.h"; sourceTree = "<group>"; };
+		9A5966BF1D409C1DEB9FF6B535F473B0 /* YHTransitionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHTransitionKit-prefix.pch"; sourceTree = "<group>"; };
+		9AD4CFC46F7A47D4A9212CEC00F44BA8 /* UIViewController+YHNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YHNavigation.h"; path = "YHTransitionKit/Classes/NavigationBar/UIViewController+YHNavigation.h"; sourceTree = "<group>"; };
+		9B970F6AFAAACB531D1366937A607AE6 /* YHNavigationTransitionAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHNavigationTransitionAnimated.m; path = YHTransitionKit/Classes/NavigationBar/YHNavigationTransitionAnimated.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A128F3461AC1F0204D6B266CEB268B6E /* Pods-YHTransitionKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHTransitionKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE75216432429B377BC0246737D06FE7 /* YHNavigationTransitionAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHNavigationTransitionAnimated.h; sourceTree = "<group>"; };
-		AEE8426720A9743EEF2D21A53322A9DB /* YHPanRightDismissGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHPanRightDismissGesture.h; sourceTree = "<group>"; };
-		AF8367F360A9623839DE0467C0455B17 /* UIViewController+YHNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YHNavigation.h"; sourceTree = "<group>"; };
-		B4ADC72E4801BEE78BD0594F03A15188 /* YHPresentDismissBaseAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHPresentDismissBaseAnimated.m; sourceTree = "<group>"; };
+		A459774CC0901E677AEAE096572A1E63 /* YHPanRightDismissGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHPanRightDismissGesture.m; path = YHTransitionKit/Classes/PresentDismiss/YHPanRightDismissGesture.m; sourceTree = "<group>"; };
+		A5F461EF74809B28B9B364BBA18431A0 /* YHNavigationBaseAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHNavigationBaseAnimated.h; path = YHTransitionKit/Classes/NavigationBar/YHNavigationBaseAnimated.h; sourceTree = "<group>"; };
+		A66BE192398A574FCE3CA76C00DA3CD0 /* YHNavigationScaleAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHNavigationScaleAnimated.m; path = YHTransitionKit/Classes/NavigationBar/YHNavigationScaleAnimated.m; sourceTree = "<group>"; };
+		AD39CA01A10165215C72FC8788C275C8 /* YHNavigationDelegateObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHNavigationDelegateObject.m; path = YHTransitionKit/Classes/NavigationBar/YHNavigationDelegateObject.m; sourceTree = "<group>"; };
+		AF373FFCEB0513F5C1E7203988624EC8 /* YHTransitionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHTransitionKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B72DCE61EA9B048EA41529E59908438A /* Pods-YHTransitionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHTransitionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B983BC1303EED313B89ECE9C0D3506EA /* UIGestureRecognizer+YHDismiss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+YHDismiss.h"; sourceTree = "<group>"; };
+		BB39C3621EB9921B24801CE2C9C9E779 /* YHPresentDismissTransitionAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHPresentDismissTransitionAnimated.h; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissTransitionAnimated.h; sourceTree = "<group>"; };
 		BC0A419F6F2C44A4D8AFD55FD990D0A5 /* Pods-YHTransitionKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHTransitionKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		BD14990872D60B4938920D7DE54E68A2 /* YHTransitionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHTransitionKit-dummy.m"; sourceTree = "<group>"; };
-		BF64B43D662BF97F60E89D14C390F61C /* YHTransitionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHTransitionKit.modulemap; sourceTree = "<group>"; };
+		BD6909F3553A09D243928B1D903BE530 /* YHPresentDismissScaleBottomAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHPresentDismissScaleBottomAnimated.h; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissScaleBottomAnimated.h; sourceTree = "<group>"; };
 		C29954C919D38EF2C717C7D360B8BD9F /* Pods-YHTransitionKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHTransitionKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEFC5F32F722B33FBF8BB8322A8F20EF /* YHPanRightDismissGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHPanRightDismissGesture.m; sourceTree = "<group>"; };
-		D76628EF3F9ADE21DB6C3DFA16B956A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DC7700C0134BFFA1E0E2AD308341C7B1 /* YHPanDownDismissGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHPanDownDismissGesture.m; sourceTree = "<group>"; };
-		DC95418A28D5C27DD9DB655A7260A44A /* YHTransitionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHTransitionKit-prefix.pch"; sourceTree = "<group>"; };
-		DFB8F30123C683DA7D6B70AC412CB72D /* YHPresentDismissScaleBottomAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHPresentDismissScaleBottomAnimated.h; sourceTree = "<group>"; };
-		E0CD47AC7797E0C56B05FBAFD10FF2FA /* UIViewController+YHNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YHNavigation.m"; sourceTree = "<group>"; };
-		E1B59F2EE869C3D62955141E885A446B /* YHPresentDismissTransitionAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHPresentDismissTransitionAnimated.h; sourceTree = "<group>"; };
-		E224DEFA4119791D07B84074F13EEBDF /* YHPresentDismissScaleBottomAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHPresentDismissScaleBottomAnimated.m; sourceTree = "<group>"; };
-		E32A9052A3DDF0474720CE962065A0EC /* UIViewController+YHPresentDismiss.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YHPresentDismiss.m"; sourceTree = "<group>"; };
+		C69E4407567F3016FDD89DF5D892185A /* YHPresentDismissBaseAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHPresentDismissBaseAnimated.h; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissBaseAnimated.h; sourceTree = "<group>"; };
+		CB657BDF3F3167154F2232A65A8430A3 /* YHPresentDismissDelegateObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHPresentDismissDelegateObject.m; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissDelegateObject.m; sourceTree = "<group>"; };
+		CCE75B2FC76B1EA34C68C37DD8723FA3 /* YHTransitionKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHTransitionKit-Info.plist"; sourceTree = "<group>"; };
+		D2AA68DC86B2A4048C82060533889B7C /* YHNavigationFullScreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHNavigationFullScreenPopGesture.m; path = YHTransitionKit/Classes/NavigationBar/YHNavigationFullScreenPopGesture.m; sourceTree = "<group>"; };
+		D8A3A20C272DE7314160D44B80746E14 /* YHPresentDismissTransitionAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHPresentDismissTransitionAnimated.m; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissTransitionAnimated.m; sourceTree = "<group>"; };
 		E43FDBE3459C00CAC78CFE65E9F31385 /* Pods-YHTransitionKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHTransitionKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E4621D8B769AF4D51D9623A22D5A77D8 /* Pods-YHTransitionKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHTransitionKit_Example-Info.plist"; sourceTree = "<group>"; };
-		E5CD1F0A8CD08E9F1FC325D63FB750C7 /* YHTransitionKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHTransitionKit.debug.xcconfig; sourceTree = "<group>"; };
-		E6D9F5275644401D72E3BB9DE25404EA /* UIGestureRecognizer+YHDismiss.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YHDismiss.m"; sourceTree = "<group>"; };
-		E7DC8AED99FEFB6F2F4B9341409E4634 /* YHNavigationScaleAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHNavigationScaleAnimated.h; sourceTree = "<group>"; };
-		EC47BE6F1D6B57D71C4A78C3E7DA6C55 /* YHTransitionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YHTransitionKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E70124BF14C705958FCE8EE685DB9FB6 /* UIViewController+YHPresentDismiss.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YHPresentDismiss.m"; path = "YHTransitionKit/Classes/PresentDismiss/UIViewController+YHPresentDismiss.m"; sourceTree = "<group>"; };
+		EE5D852333C70451BFBE33DA78F35A0D /* YHPresentDismissKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHPresentDismissKit.h; path = YHTransitionKit/Classes/PresentDismiss/YHPresentDismissKit.h; sourceTree = "<group>"; };
+		EE8C98CD4DDF3BC205612CB7845A12D5 /* YHTransitionKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHTransitionKit.release.xcconfig; sourceTree = "<group>"; };
 		F4F35C7ACD101EDC3B1F8F0C087929BB /* Pods-YHTransitionKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHTransitionKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8CD7AEF9913C906A3314753B584B44F /* YHNavigationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHNavigationKit.h; path = YHTransitionKit/Classes/NavigationBar/YHNavigationKit.h; sourceTree = "<group>"; };
+		F9406862C5455415198EB0F2CE8AE241 /* UINavigationController+YHTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+YHTransition.h"; path = "YHTransitionKit/Classes/NavigationBar/UINavigationController+YHTransition.h"; sourceTree = "<group>"; };
 		FB368F755BAE33D8B67400832BB7991E /* Pods-YHTransitionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHTransitionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FF4387E0791E5219E196CC72CA524A65 /* Pods-YHTransitionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHTransitionKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		FFA1031A2C25D14820A09A217D7F77CE /* YHTransitionKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHTransitionKit-Info.plist"; sourceTree = "<group>"; };
-		FFFE2E9CD52E2332F8DB24A63CEE50B6 /* UINavigationController+YHTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+YHTransition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,34 +166,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3117C330B34C050E8F75FD2C63E45ACE /* Development Pods */ = {
+		2E3B18EF0EEA1E1E2EC91211F546AFC5 /* YHTransitionKit */ = {
 			isa = PBXGroup;
 			children = (
-				543B4E3CA580F4F0623F4107856EDCB7 /* YHTransitionKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		485630B35A4BF793B08DCB7158F6379C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				46FEAF1A06DC266CE22212BC77F869EE /* LICENSE */,
-				D76628EF3F9ADE21DB6C3DFA16B956A9 /* README.md */,
-				EC47BE6F1D6B57D71C4A78C3E7DA6C55 /* YHTransitionKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		543B4E3CA580F4F0623F4107856EDCB7 /* YHTransitionKit */ = {
-			isa = PBXGroup;
-			children = (
-				B984F535AD5CB46F065A76603C8F176A /* NavigationBar */,
-				485630B35A4BF793B08DCB7158F6379C /* Pod */,
-				6DCAB2E6894A3A1B8413AA26A976BDDA /* PresentDismiss */,
-				71D3AD7133A49F95A347C5C67DD16EAA /* Support Files */,
+				653C73F4E3877E47D1FDEFB72E6D7727 /* NavigationBar */,
+				F3ED7327FDFCDA60E709C6DF5DA5B520 /* Pod */,
+				7C18CD7A9E2B6559ABBA2A50AA3FF22F /* PresentDismiss */,
+				C3A049C6E23806BBDD0BE02BE2014C5F /* Support Files */,
 			);
 			name = YHTransitionKit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		3117C330B34C050E8F75FD2C63E45ACE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E3B18EF0EEA1E1E2EC91211F546AFC5 /* YHTransitionKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -204,46 +194,52 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6DCAB2E6894A3A1B8413AA26A976BDDA /* PresentDismiss */ = {
+		653C73F4E3877E47D1FDEFB72E6D7727 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				B983BC1303EED313B89ECE9C0D3506EA /* UIGestureRecognizer+YHDismiss.h */,
-				E6D9F5275644401D72E3BB9DE25404EA /* UIGestureRecognizer+YHDismiss.m */,
-				9378295A18201E1AE4F64AF50EF2D2C6 /* UIViewController+YHPresentDismiss.h */,
-				E32A9052A3DDF0474720CE962065A0EC /* UIViewController+YHPresentDismiss.m */,
-				3718572DBC5C71E312E83BFE91E6414E /* YHPanDownDismissGesture.h */,
-				DC7700C0134BFFA1E0E2AD308341C7B1 /* YHPanDownDismissGesture.m */,
-				AEE8426720A9743EEF2D21A53322A9DB /* YHPanRightDismissGesture.h */,
-				CEFC5F32F722B33FBF8BB8322A8F20EF /* YHPanRightDismissGesture.m */,
-				206C717EDD2330E8B7B2D071E461D4F0 /* YHPresentDismissBaseAnimated.h */,
-				B4ADC72E4801BEE78BD0594F03A15188 /* YHPresentDismissBaseAnimated.m */,
-				8031435738E707804444AD043A631682 /* YHPresentDismissDelegateObject.h */,
-				12EBCE13015EDCDCD0B9C7D1D9747A5D /* YHPresentDismissDelegateObject.m */,
-				2757EDEA419FA154710444358AD01180 /* YHPresentDismissKit.h */,
-				DFB8F30123C683DA7D6B70AC412CB72D /* YHPresentDismissScaleBottomAnimated.h */,
-				E224DEFA4119791D07B84074F13EEBDF /* YHPresentDismissScaleBottomAnimated.m */,
-				58318175738CF2A9A23AF4745F0463DD /* YHPresentDismissScaleRightAnimated.h */,
-				8687FAEEFBB353E992062BFFBB092D80 /* YHPresentDismissScaleRightAnimated.m */,
-				E1B59F2EE869C3D62955141E885A446B /* YHPresentDismissTransitionAnimated.h */,
-				0667453B061EAE1745629FFC1EA535C3 /* YHPresentDismissTransitionAnimated.m */,
+				F9406862C5455415198EB0F2CE8AE241 /* UINavigationController+YHTransition.h */,
+				1595CBFE9A71AC76C4CEB5FADFFC2460 /* UINavigationController+YHTransition.m */,
+				9AD4CFC46F7A47D4A9212CEC00F44BA8 /* UIViewController+YHNavigation.h */,
+				2AFB7D4CBAE05506D1219938D72336D5 /* UIViewController+YHNavigation.m */,
+				A5F461EF74809B28B9B364BBA18431A0 /* YHNavigationBaseAnimated.h */,
+				44AD75106C6E48B55B2D95DB201C92B7 /* YHNavigationBaseAnimated.m */,
+				18D045E4830368EC9E6222F69EF0BCC3 /* YHNavigationDelegateObject.h */,
+				AD39CA01A10165215C72FC8788C275C8 /* YHNavigationDelegateObject.m */,
+				8702A122EA262922FFC7F68448E6A4A6 /* YHNavigationFullScreenPopGesture.h */,
+				D2AA68DC86B2A4048C82060533889B7C /* YHNavigationFullScreenPopGesture.m */,
+				F8CD7AEF9913C906A3314753B584B44F /* YHNavigationKit.h */,
+				37BB769910F0F87555E8715FD211931B /* YHNavigationScaleAnimated.h */,
+				A66BE192398A574FCE3CA76C00DA3CD0 /* YHNavigationScaleAnimated.m */,
+				1DBFC49CCE0F14D010AC6CC504500F67 /* YHNavigationTransitionAnimated.h */,
+				9B970F6AFAAACB531D1366937A607AE6 /* YHNavigationTransitionAnimated.m */,
 			);
-			name = PresentDismiss;
-			path = YHTransitionKit/Classes/PresentDismiss;
+			name = NavigationBar;
 			sourceTree = "<group>";
 		};
-		71D3AD7133A49F95A347C5C67DD16EAA /* Support Files */ = {
+		7C18CD7A9E2B6559ABBA2A50AA3FF22F /* PresentDismiss */ = {
 			isa = PBXGroup;
 			children = (
-				BF64B43D662BF97F60E89D14C390F61C /* YHTransitionKit.modulemap */,
-				BD14990872D60B4938920D7DE54E68A2 /* YHTransitionKit-dummy.m */,
-				FFA1031A2C25D14820A09A217D7F77CE /* YHTransitionKit-Info.plist */,
-				DC95418A28D5C27DD9DB655A7260A44A /* YHTransitionKit-prefix.pch */,
-				3C19A9BBD0D0F504C32F39E5A60787BA /* YHTransitionKit-umbrella.h */,
-				E5CD1F0A8CD08E9F1FC325D63FB750C7 /* YHTransitionKit.debug.xcconfig */,
-				8E0650BF036F18718B6EF6C6EE1D892E /* YHTransitionKit.release.xcconfig */,
+				5610C03302BA8F9B0804C4924A88C395 /* UIGestureRecognizer+YHDismiss.h */,
+				6218FA288C24D22D953E98DC4C857C7B /* UIGestureRecognizer+YHDismiss.m */,
+				5A1C4B1DE9BF544885EA2D11D1F80801 /* UIViewController+YHPresentDismiss.h */,
+				E70124BF14C705958FCE8EE685DB9FB6 /* UIViewController+YHPresentDismiss.m */,
+				396C1873E2C009B52D6BB7FE0C327F05 /* YHPanDownDismissGesture.h */,
+				2F4858C83303202FD26F8AA8E8865E51 /* YHPanDownDismissGesture.m */,
+				4F4B5424CE17FA3BFD46E517A2B89927 /* YHPanRightDismissGesture.h */,
+				A459774CC0901E677AEAE096572A1E63 /* YHPanRightDismissGesture.m */,
+				C69E4407567F3016FDD89DF5D892185A /* YHPresentDismissBaseAnimated.h */,
+				08F7BA2E4174DFDF8AA267BA33735D3B /* YHPresentDismissBaseAnimated.m */,
+				3E18A12368F7207F132D9D4155C66E71 /* YHPresentDismissDelegateObject.h */,
+				CB657BDF3F3167154F2232A65A8430A3 /* YHPresentDismissDelegateObject.m */,
+				EE5D852333C70451BFBE33DA78F35A0D /* YHPresentDismissKit.h */,
+				BD6909F3553A09D243928B1D903BE530 /* YHPresentDismissScaleBottomAnimated.h */,
+				3D85B796657BB46CDF65F3B77723DE96 /* YHPresentDismissScaleBottomAnimated.m */,
+				415042B5F90FD823795774C04D9AC2FE /* YHPresentDismissScaleRightAnimated.h */,
+				0EE077E22B178BF1842064005C8D1FD0 /* YHPresentDismissScaleRightAnimated.m */,
+				BB39C3621EB9921B24801CE2C9C9E779 /* YHPresentDismissTransitionAnimated.h */,
+				D8A3A20C272DE7314160D44B80746E14 /* YHPresentDismissTransitionAnimated.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YHTransitionKit";
+			name = PresentDismiss;
 			sourceTree = "<group>";
 		};
 		A19B006C54E70EF37ED9CBB55B2E164B /* Pods-YHTransitionKit_Tests */ = {
@@ -298,27 +294,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B984F535AD5CB46F065A76603C8F176A /* NavigationBar */ = {
+		C3A049C6E23806BBDD0BE02BE2014C5F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B978F3463646F523080F624ABE5DB7A /* UINavigationController+YHTransition.h */,
-				FFFE2E9CD52E2332F8DB24A63CEE50B6 /* UINavigationController+YHTransition.m */,
-				AF8367F360A9623839DE0467C0455B17 /* UIViewController+YHNavigation.h */,
-				E0CD47AC7797E0C56B05FBAFD10FF2FA /* UIViewController+YHNavigation.m */,
-				0EEF3C29DEB1178F99B7FC06A8BCDBD4 /* YHNavigationBaseAnimated.h */,
-				5FC12DB93EAEC957D2F50C70E0983B76 /* YHNavigationBaseAnimated.m */,
-				8F1D767DD1CEA9FB38789B952C404230 /* YHNavigationDelegateObject.h */,
-				79F656E43D959ECD9C32373DEA8C889C /* YHNavigationDelegateObject.m */,
-				968A21E3F7FE4D9246C013998C1E9791 /* YHNavigationFullScreenPopGesture.h */,
-				54E0A127F0154B0048FCBA7F19481483 /* YHNavigationFullScreenPopGesture.m */,
-				8FEC329F7A6317B9B2A63B51E82AEB92 /* YHNavigationKit.h */,
-				E7DC8AED99FEFB6F2F4B9341409E4634 /* YHNavigationScaleAnimated.h */,
-				8CD1B8B07845B20D8B76E46B284C62D8 /* YHNavigationScaleAnimated.m */,
-				AE75216432429B377BC0246737D06FE7 /* YHNavigationTransitionAnimated.h */,
-				115B583602BE07976331B9F5A190F2D0 /* YHNavigationTransitionAnimated.m */,
+				71385D64ED9CB33CC92300B7CD63C729 /* YHTransitionKit.modulemap */,
+				5962858137DFFE9A62D038864C12945F /* YHTransitionKit-dummy.m */,
+				CCE75B2FC76B1EA34C68C37DD8723FA3 /* YHTransitionKit-Info.plist */,
+				9A5966BF1D409C1DEB9FF6B535F473B0 /* YHTransitionKit-prefix.pch */,
+				947346D2C50802779946B0B68D4C1DEB /* YHTransitionKit-umbrella.h */,
+				035B7BC49CC923ADEE11E516FCA1064D /* YHTransitionKit.debug.xcconfig */,
+				EE8C98CD4DDF3BC205612CB7845A12D5 /* YHTransitionKit.release.xcconfig */,
 			);
-			name = NavigationBar;
-			path = YHTransitionKit/Classes/NavigationBar;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHTransitionKit";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -340,40 +328,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F3ED7327FDFCDA60E709C6DF5DA5B520 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				009411221D7247886E50ED478735C1F1 /* LICENSE */,
+				244A10726405E975F948EA4689A76D02 /* README.md */,
+				AF373FFCEB0513F5C1E7203988624EC8 /* YHTransitionKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16FC887C0EBC891FBA9BF2B73E3AB77C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55DA276FE9443E942E4BE9A70724AB36 /* UIGestureRecognizer+YHDismiss.h in Headers */,
-				9E0BC3B83E6EF1DC00500E259E176EBD /* UINavigationController+YHTransition.h in Headers */,
-				69B4D45702CD934DFA15385D707C75E6 /* UIViewController+YHNavigation.h in Headers */,
-				D96189506D48BEDE35BD9088430D5AC2 /* UIViewController+YHPresentDismiss.h in Headers */,
-				989848CA46AEE5E8B327BB96C7B21BD8 /* YHNavigationBaseAnimated.h in Headers */,
-				915A477127009F5B062D6E44087AED2D /* YHNavigationDelegateObject.h in Headers */,
-				A96F228F4D78596CF1ED76351ECBEEC1 /* YHNavigationFullScreenPopGesture.h in Headers */,
-				B64F379D9812C098987B7DFC2CB5D184 /* YHNavigationKit.h in Headers */,
-				B8DA84AEEA972933CB74FF724F5945F6 /* YHNavigationScaleAnimated.h in Headers */,
-				C78376A6AA592ADD8E6238259FE92767 /* YHNavigationTransitionAnimated.h in Headers */,
-				0248C260EF3AB7BB77E5A15F31ACBE8E /* YHPanDownDismissGesture.h in Headers */,
-				4E9FB612CBD4ACE61B3BF705CC81921E /* YHPanRightDismissGesture.h in Headers */,
-				0C101D7299DCDB1D8DDD606D936AE0DE /* YHPresentDismissBaseAnimated.h in Headers */,
-				F5045C18988092FF27EA33383A4AB628 /* YHPresentDismissDelegateObject.h in Headers */,
-				BF816D4D28D6CA5FFA30123AD99F0B46 /* YHPresentDismissKit.h in Headers */,
-				0B62A01BB83CCDE2D079D4FE0B01753B /* YHPresentDismissScaleBottomAnimated.h in Headers */,
-				BA8B41EC3DE3DE3E020251F11A31C2BB /* YHPresentDismissScaleRightAnimated.h in Headers */,
-				76F8A1672AAAA62912F0AF5FF2D0EBE0 /* YHPresentDismissTransitionAnimated.h in Headers */,
-				2C581B970018E09E225D83D8683CC91A /* YHTransitionKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		217749A9814C48743EB1D699C886FF35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0179C1ED3555E75429AFAD9031252765 /* Pods-YHTransitionKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4472D152D7C6F8C1E7A923D016B42AC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094BC68F74DD36FDB285694555AED1E2 /* UIGestureRecognizer+YHDismiss.h in Headers */,
+				EC430043453A9562ECD8E4066E2F1467 /* UINavigationController+YHTransition.h in Headers */,
+				7DDB43074146AE7EFC7AE9492EB19CAC /* UIViewController+YHNavigation.h in Headers */,
+				AE95E6A13E0672B4338912D4D81B5F5F /* UIViewController+YHPresentDismiss.h in Headers */,
+				E5F6F4D64CA8C666103E0FEA6B7E5E02 /* YHNavigationBaseAnimated.h in Headers */,
+				C102CC13F9C00835825AFEF0D10E53A1 /* YHNavigationDelegateObject.h in Headers */,
+				E4A79DB9F46984EB8F0CFDF070CE988E /* YHNavigationFullScreenPopGesture.h in Headers */,
+				2A5F5759E02C557DC18B25729AD6EE47 /* YHNavigationKit.h in Headers */,
+				E26852E23C1529B9DB874F5C0EB17A1F /* YHNavigationScaleAnimated.h in Headers */,
+				EE933AF88CA370AE5358566758F80594 /* YHNavigationTransitionAnimated.h in Headers */,
+				5CE731BA4D2CEBB5BFE6D699E0906B5D /* YHPanDownDismissGesture.h in Headers */,
+				9DF15CBA2FEA9F327372BD3E76B9DF15 /* YHPanRightDismissGesture.h in Headers */,
+				69F8C62E098BA25E158349F2B437F5F0 /* YHPresentDismissBaseAnimated.h in Headers */,
+				14060E5CBAE96C85340647633ED9F08E /* YHPresentDismissDelegateObject.h in Headers */,
+				B775976FA5D82FC7DF509728F6F1E6FB /* YHPresentDismissKit.h in Headers */,
+				9CD9C5C917F4444CE730B85A0229F6C6 /* YHPresentDismissScaleBottomAnimated.h in Headers */,
+				F3F4D3B739090EE6E68028B06B827C8A /* YHPresentDismissScaleRightAnimated.h in Headers */,
+				44D6089AB2F14A140415DD4BABCC1E9E /* YHPresentDismissTransitionAnimated.h in Headers */,
+				9332BCD0704F20CC5862F3EC66021938 /* YHTransitionKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +390,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDB354D7592ECE5A71D7500F53DA9B1D /* Build configuration list for PBXNativeTarget "YHTransitionKit" */;
 			buildPhases = (
-				16FC887C0EBC891FBA9BF2B73E3AB77C /* Headers */,
-				43FEEFFDEE464A492C4BF9F2C84392DF /* Sources */,
+				4472D152D7C6F8C1E7A923D016B42AC1 /* Headers */,
+				FD014AB9CF40E8B8849D1D47B18F8E14 /* Sources */,
 				E4197D457D6EF557D19EC84D064CB8F3 /* Frameworks */,
 				13AAE759C2B5212603522B742749EFB2 /* Resources */,
 			);
@@ -450,8 +448,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -506,35 +504,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43FEEFFDEE464A492C4BF9F2C84392DF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16899494E6C68BB11E5F43DC13837E4F /* UIGestureRecognizer+YHDismiss.m in Sources */,
-				713C91F340C63444EC4C8E632CB4DFBE /* UINavigationController+YHTransition.m in Sources */,
-				F6780C6604623FFB728C2C9A67500EA0 /* UIViewController+YHNavigation.m in Sources */,
-				70023D08C8A2BFA0E5E03AFFD424F897 /* UIViewController+YHPresentDismiss.m in Sources */,
-				E243DA10F6000893DEB258D826EBAB6E /* YHNavigationBaseAnimated.m in Sources */,
-				6044F6696E95C83F0E35E27F17CF99B4 /* YHNavigationDelegateObject.m in Sources */,
-				FD6447D0F43597347D7FBDDB1CAF0F80 /* YHNavigationFullScreenPopGesture.m in Sources */,
-				B4DA6D05B14E6B794C405BD8F473A7FA /* YHNavigationScaleAnimated.m in Sources */,
-				8EC4F253A0EBACD64B31D554B3822388 /* YHNavigationTransitionAnimated.m in Sources */,
-				1F8A63A6247EAA300CAF9DF974952830 /* YHPanDownDismissGesture.m in Sources */,
-				B63C739D2C4E134CC906A8C0D52A5B47 /* YHPanRightDismissGesture.m in Sources */,
-				2A1F8B0918812CFB3CF6A49A2746D83F /* YHPresentDismissBaseAnimated.m in Sources */,
-				27AD44618EC73474A3F137974C5C145A /* YHPresentDismissDelegateObject.m in Sources */,
-				170D51542F8DCC6D7A6F1A931ACF35A1 /* YHPresentDismissScaleBottomAnimated.m in Sources */,
-				FEA3A9D193C64FDCDF5E3BCF056BC112 /* YHPresentDismissScaleRightAnimated.m in Sources */,
-				69920130C63CF35108621235E9F927AC /* YHPresentDismissTransitionAnimated.m in Sources */,
-				1F9E91EB00C9A3D37D830A6B0FB4436E /* YHTransitionKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE72397BCA0BF8859BDAB8C2E9DE7BFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				167CA9766F36BAB365C237B601879106 /* Pods-YHTransitionKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD014AB9CF40E8B8849D1D47B18F8E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D70FC32F308A1FBA1171104C3C2F7 /* UIGestureRecognizer+YHDismiss.m in Sources */,
+				046E5C369C40D19891D39D16D743201B /* UINavigationController+YHTransition.m in Sources */,
+				50CC8D5507778F061C7249C188AAB1B4 /* UIViewController+YHNavigation.m in Sources */,
+				F305240B6714EF4D407682415B011A76 /* UIViewController+YHPresentDismiss.m in Sources */,
+				5D6D74E433EB0EADEE2EBF3D80066D7A /* YHNavigationBaseAnimated.m in Sources */,
+				7373507C38A6276D17989F42480F3353 /* YHNavigationDelegateObject.m in Sources */,
+				A8F6AF7C44FA47F1E542FA13BF5EE1CA /* YHNavigationFullScreenPopGesture.m in Sources */,
+				E2D9EAABBB42F3384EAE6832210E20D8 /* YHNavigationScaleAnimated.m in Sources */,
+				65A2F380BE014AF298F216DAA169F1B0 /* YHNavigationTransitionAnimated.m in Sources */,
+				C68988B0D747F1EE76C481C75C9CB4C1 /* YHPanDownDismissGesture.m in Sources */,
+				541BC776EA4F55FC30ED88ECCC3BAE3E /* YHPanRightDismissGesture.m in Sources */,
+				156206C6E6D3E06A7B43E93602B30461 /* YHPresentDismissBaseAnimated.m in Sources */,
+				3E1602C5FFBD0911DAB08FF4B0BE948F /* YHPresentDismissDelegateObject.m in Sources */,
+				9066B1921F9C2AE9A5E6E5C1A578D53B /* YHPresentDismissScaleBottomAnimated.m in Sources */,
+				EC90BD866192B21456105827EDA5B4D8 /* YHPresentDismissScaleRightAnimated.m in Sources */,
+				203B6F498AFFE62823B98A520B2741D6 /* YHPresentDismissTransitionAnimated.m in Sources */,
+				F36FAF64E95BDF6EE93B681B0F758492 /* YHTransitionKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,7 +687,7 @@
 		};
 		9E0FF1ED706CA42E635D56C0C1C0CB39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5CD1F0A8CD08E9F1FC325D63FB750C7 /* YHTransitionKit.debug.xcconfig */;
+			baseConfigurationReference = 035B7BC49CC923ADEE11E516FCA1064D /* YHTransitionKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -837,7 +835,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -845,7 +844,7 @@
 		};
 		D90480E29C5237E29C6B208FF869A718 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E0650BF036F18718B6EF6C6EE1D892E /* YHTransitionKit.release.xcconfig */;
+			baseConfigurationReference = EE8C98CD4DDF3BC205612CB7845A12D5 /* YHTransitionKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
